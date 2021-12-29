@@ -4,3 +4,7 @@ body {
 
 
 /* heading text */
+
+#headingText {
+    color: rgb(255, 208, 0);
+}
