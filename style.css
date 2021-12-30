@@ -2,6 +2,7 @@ body {
     background-color: gray;
     margin-top: 2%;
     margin-left: 2%;
+    text-align: center;
 }
 
 
@@ -9,4 +10,28 @@ body {
 
 #headingText {
     color: rgb(255, 208, 0);
+}
+
+
+/* table input field */
+
+input {
+    width: 50px;
+    background-color: rgb(202, 202, 202);
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    height: 30px;
+}
+
+
+/* button group */
+
+#btnGroup {
+    margin-top: 10px;
+    margin-left: 10px;
+    align-self: center;
 }
