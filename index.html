@@ -12,23 +12,122 @@
 <body>
     <!-- heading text -->
     <div id="headingText">
-        <h3>Welcome to</h3>
-        <h2>Packing slip generator</h2>
+        <h2>Packing slip generator for electrical house wire</h2>
 
     </div>
 
     <!-- product input field -->
-    <div id="inputField">
-        <label for="productName">Product</label><br>
-        <input type="text"><br>
-        <label for="colour">Colour</label><br>
-        <input type="range"><br>
-        <label for="quantity">Quantity</label><br>
-        <input type="number"><br>
-        <label for="weight">Weight</label><br>
-        <input type="number"><br>
-        <button>Generate</button>
-    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Size (sqmm)</th>
+                <th>Red</th>
+                <th>Yellow</th>
+                <th>Blue</th>
+                <th>Black</th>
+                <th>White</th>
+                <th>Green</th>
+                <th>Total coils</th>
+                <th>Coils per carton</th>
+                <th>Total carton</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0.75</td>
+
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+
+            </tr>
+            <tr>
+                <td>1.0</td>
+
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+
+            </tr>
+
+            <tr>
+                <td>1.5</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+
+            </tr>
+
+            <tr>
+                <td>2.5</td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+
+            </tr>
+
+            <tr>
+                <td>4.0</td>
+
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+
+            </tr>
+
+            <tr>
+                <td>6.0</td>
+
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+                <td><input type="number"></td>
+                <td><input type="hidden"></td>
+
+            </tr>
+
+
+        </tbody>
+
+    </table>
+    <button>Generate</button>
+    <button>Download PDF</button>
+
 
     <script src="/app.js"></script>
 </body>
