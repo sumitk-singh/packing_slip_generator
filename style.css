@@ -40,6 +40,8 @@ table {
     border-color: black;
     border-radius: 8px;
     padding: 5px;
+    background-color: #D99975;
+    box-shadow: 1px 1px 30px rgb(85, 85, 85);
 }
 
 table,
@@ -63,17 +65,22 @@ td {
     width: 150px;
     height: 35px;
     border-radius: 8px;
-    color: white;
+    color: rgb(17, 17, 17);
 }
 
-#resetBtn {
+#resetBtn:hover {
     background-color: red;
+    box-shadow: 1px 1px 25px red;
 }
 
-#generateBtn {
+#generateBtn:hover {
     background-color: seagreen;
+    color: white;
+    box-shadow: 1px 1px 25px seagreen;
 }
 
-#downloadPdfBtn {
+#downloadPdfBtn:hover {
     background-color: rgb(63, 1, 1);
+    color: white;
+    box-shadow: 1px 1px 25px rgb(63, 1, 1);
 }
