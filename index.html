@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Packing slip generator</title>
     <link rel="stylesheet" href="/style.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orienta&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +22,15 @@
     </div>
 
     <!-- product input field -->
-
+    <div>
+        <label for="clientName">Client Name</label><br>
+        <input type="text" name="clientName" id="clientName" class="clientDetails"><br>
+        <label for="station">Station</label><br>
+        <input type="text" name="station" id="station" class="clientDetails"><br>
+        <label for="dispatchId">Dispatch ID</label><br>
+        <input type="text" name="dispatchId" id="dispatchId" class="clientDetails"><br>
+    </div>
+    <hr>
     <table>
         <thead>
             <tr>
@@ -126,10 +139,11 @@
 
     </table>
     <div id="btnGroup">
-        <button>Reset</button>
-        <button>Generate</button>
-        <button>Download PDF</button>
+        <button id="resetBtn" class="btn">Reset</button>
+        <button id="generateBtn" class="btn">Generate</button>
+        <button id="downloadPdfBtn" class="btn">Download PDF</button>
     </div>
+    <hr>
 
     <script src="/app.js"></script>
 </body>

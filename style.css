@@ -1,30 +1,51 @@
 body {
-    background-color: gray;
+    background-color: rgb(196, 196, 196);
     margin-top: 2%;
     margin-left: 2%;
     text-align: center;
+    font-family: 'Orienta', sans-serif;
 }
 
 
 /* heading text */
 
 #headingText {
-    color: rgb(255, 208, 0);
+    color: rgb(10, 10, 10);
+}
+
+
+/* client details */
+
+.clientDetails {
+    width: 300px;
 }
 
 
 /* table input field */
 
 input {
+    padding: 5px;
     width: 50px;
-    background-color: rgb(202, 202, 202);
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+}
+
+table {
+    margin: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 table,
 th,
 td {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 30px;
+    width: 1000px;
 }
 
 
@@ -34,4 +55,23 @@ td {
     margin-top: 10px;
     margin-left: 10px;
     align-self: center;
+}
+
+.btn {
+    width: 150px;
+    height: 35px;
+    border-radius: 8px;
+    color: white;
+}
+
+#resetBtn {
+    background-color: red;
+}
+
+#generateBtn {
+    background-color: seagreen;
+}
+
+#downloadPdfBtn {
+    background-color: rgb(63, 1, 1);
 }
