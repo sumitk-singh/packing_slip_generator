@@ -47,9 +47,13 @@ table {
 table,
 th,
 td {
-    /* border: 1px solid black; */
     height: 30px;
     width: 1000px;
+}
+
+td>input {
+    text-align: center;
+    font: bold;
 }
 
 
