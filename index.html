@@ -22,123 +22,125 @@
     </div>
 
     <!-- product input field -->
-    <div>
-        <label for="clientName">Client Name</label><br>
-        <input type="text" name="clientName" id="clientName" class="clientDetails"><br>
-        <label for="station">Station</label><br>
-        <input type="text" name="station" id="station" class="clientDetails"><br>
-        <label for="dispatchId">Dispatch ID</label><br>
-        <input type="text" name="dispatchId" id="dispatchId" class="clientDetails"><br>
-    </div>
-    <hr>
-    <table>
-        <thead>
-            <tr>
-                <th>Size (sqmm)</th>
-                <th>Red</th>
-                <th>Yellow</th>
-                <th>Blue</th>
-                <th>Black</th>
-                <th>White</th>
-                <th>Green</th>
-                <th>Total coils</th>
-                <th>Coils per carton</th>
-                <th>Total carton</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>0.75</td>
 
-                <td><input class="coilInputField" type="number" disabled></td>
-                <td><input class="coilInputField" type="number" disabled></td>
-                <td><input class="coilInputField" type="number" disabled></td>
-                <td><input class="coilInputField" type="number" disabled></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
+    <form id="myForm">
+        <div>
+            <label for="clientName">Client Name</label><br>
+            <input type="text" name="clientName" id="clientName" class="clientDetails"><br>
+            <label for="station">Station</label><br>
+            <input type="text" name="station" id="station" class="clientDetails"><br>
+            <label for="dispatchId">Dispatch ID</label><br>
+            <input type="text" name="dispatchId" id="dispatchId" class="clientDetails"><br>
+        </div>
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th>Size (sqmm)</th>
+                    <th>Red</th>
+                    <th>Yellow</th>
+                    <th>Blue</th>
+                    <th>Black</th>
+                    <th>White</th>
+                    <th>Green</th>
+                    <th>Total coils</th>
+                    <th>Coils per carton</th>
+                    <th>Total carton</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0.75</td>
 
-            </tr>
-            <tr>
-                <td>1.0</td>
+                    <td><input class="coilInputField" type="number" disabled></td>
+                    <td><input class="coilInputField" type="number" disabled></td>
+                    <td><input class="coilInputField" type="number" disabled></td>
+                    <td><input class="coilInputField" type="number" disabled></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
 
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
+                </tr>
+                <tr>
+                    <td>1.0</td>
 
-            </tr>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
 
-            <tr>
-                <td>1.5</td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
+                </tr>
 
-            </tr>
+                <tr>
+                    <td>1.5</td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
 
-            <tr>
-                <td>2.5</td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
+                </tr>
 
-            </tr>
+                <tr>
+                    <td>2.5</td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
 
-            <tr>
-                <td>4.0</td>
+                </tr>
 
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
+                <tr>
+                    <td>4.0</td>
 
-            </tr>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
 
-            <tr>
-                <td>6.0</td>
+                </tr>
 
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
-                <td><input class="coilInputField" type="number"></td>
-                <td><input class="coilInputField" type="hidden"></td>
+                <tr>
+                    <td>6.0</td>
 
-            </tr>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
+                    <td><input class="coilInputField" type="number"></td>
+                    <td><input class="coilInputField" type="hidden"></td>
+
+                </tr>
 
 
-        </tbody>
+            </tbody>
 
-    </table>
-
+        </table>
+    </form>
     <!-- call to action btn group -->
     <div id="btnGroup">
         <button id="resetBtn" class="btn"><i class="fas fa-arrow-circle-left"></i> Reset</button>
