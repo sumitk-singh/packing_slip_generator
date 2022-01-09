@@ -1,7 +1,7 @@
 const clientDetails = document.querySelectorAll(".clientDetails");
 const coilInputField = document.querySelectorAll(".coilInputField");
 
-const clientName = document.querySelector("#clientName");
+const clientName = document.querySelectorAll("#clientName");
 const station = document.querySelector("#station");
 const totalQty = document.querySelector("#totalQty");
 const totalWeight = document.querySelector("#totalWeight");
@@ -18,7 +18,7 @@ function resetInputField() {
 }
 
 function generatePackingSlip() {
-    clientName.innerText = clientDetails;
+    clientName.innerHTML = "abc";
 
 }
 
