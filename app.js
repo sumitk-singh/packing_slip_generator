@@ -18,7 +18,7 @@ function resetInputField() {
 }
 
 function generatePackingSlip() {
-    clientName.innerHTML = "abc";
+    clientName.value = "abc";
 
 }
 
